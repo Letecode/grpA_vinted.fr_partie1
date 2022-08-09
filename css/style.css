@@ -1,0 +1,304 @@
+*
+{
+    font-family:'century gothic';
+
+}
+#titre
+{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -75px;
+    font-size: 35px;
+    font-family: 'forte';
+    color: rgb(8, 178, 187);
+}
+.bloc_gen
+{
+    position: fixed;
+    background-color: #ffff;
+    width: 1355px;
+    margin-left: -10px;
+    margin-top: -10px;
+
+}
+.bloc_sec
+{
+    margin-top: -25px;
+    z-index: 1;
+}
+#bloc1
+{
+    display: flex;
+    margin-left: 150px;
+    padding-bottom: 10px;
+}
+#bloc-in
+{
+    display: flex;
+    margin-top: 15px;
+    border-radius: 5px;
+
+
+}
+#bloc-in1
+{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 50px;
+    padding: 7px;
+    padding-right:-5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(229, 225, 241);
+
+}
+#selection1
+{
+
+    margin-right: -120px;
+    cursor:pointer;
+    border: none;
+    background-color: rgb(229, 225, 241);
+}
+#rech
+{
+    margin-left: 150px;
+    padding-right: 334px;
+    text-align: left;
+    border:none;
+    font-size: 13px;
+    background-color: rgb(229, 225, 241);
+}
+#search
+{
+    position:absolute;
+    margin-left:120px;
+    text-decoration:none;
+    color:rgb(190, 187, 199);
+}
+#inscrit
+{
+    margin-left: 35px;
+    margin-right: -95px;
+    padding: 7px 0px;
+    border-radius: 5px;
+    border-color: rgb(1, 119, 131);
+    color: rgb(1, 119, 131);
+    background-color: #ffff;
+    cursor:pointer;
+    font-size: 13px;
+}
+#vends
+{
+    margin-left: 100px;
+    padding: 7px 20px;
+    border-radius: 5px;
+    background-color: rgb(1, 119, 131);
+    border-color: rgb(1, 119, 131);
+    color: #ffff;
+    cursor:pointer;
+    font-size: 13px;
+}
+#selection2
+{
+    border: none;
+    margin-left: 30px;
+    cursor:pointer;
+}
+#question-circle
+{
+    position:absolute;
+    margin-left:10px;
+    margin-top:7px;
+}
+
+#text-line a
+{
+
+    text-decoration: none;
+    color:rgb(190, 187, 199);
+    padding-right: 10px;
+    font-size: 15px;
+}
+#text-line 
+{
+    display: flex;
+    margin-left: 50px;
+    margin-top: -12px;
+}
+#heart
+{
+    position:absolute;
+    margin-top:-50px;
+    margin-left:160px;
+    cursor:pointer;
+    z-index: -1;
+}
+#heart1
+{
+    position:absolute;
+    margin-top:-87px;
+    margin-left:185px;
+    cursor:pointer;
+    z-index: -1;
+}
+#bloc-image
+{
+    position: absolute;
+    border: 1px solid #ffff;
+    border-radius: 2px;
+    padding: 10px 30px 70px;
+    margin-right: 1000px;
+    margin-left: 100px;
+    margin-top: -350px;
+    background-color: #ffff;
+
+}
+#image1
+{
+    margin-top: 50px;
+    object-fit:cover;
+    margin-left: -10px;
+}
+
+#bloc-image p
+{
+    font-family: 'century gothic';
+    font-size: 30px;  
+}
+#btn-img
+{
+    padding: 15px 60px;
+    border-radius: 5px;
+    background-color: rgb(1, 119, 131);
+    border-color: rgb(1, 119, 131);
+    color: #ffff;
+    cursor:pointer;
+    font-size: 13px;
+
+}
+#bloc-image a
+{
+    font-family: 'century gothic';
+    font-size: 15px;  
+    text-decoration: none;
+    color:rgb(1, 119, 131);
+}
+h1
+{
+    margin-left: 25px;
+    font-size: 25px;
+    font-family: 'century Gothic';
+}
+#images-art-pop
+{
+    display:flex;
+    margin-left: 50px;
+}
+#images-art-pop img
+{
+    width: 200px;
+    height: 275px;
+    padding-right: 15px;
+    object-fit: cover;
+    
+}
+#text-img
+{
+    border:1px solid black;
+    padding: 125px 15px;
+    margin-top:-1px;
+    text-decoration:none;
+    background-color: rgb(242, 242, 242);
+    color: rgb(112, 112, 112);
+    font-family: 'century Gothic ';
+}
+#article-pop
+{
+    display: flex;
+}
+#voir
+{
+    text-decoration:none;
+    color :rgb(1, 119, 131);
+    margin-left: 1000px;
+    margin-top: 30px;
+}
+.prix
+{
+    margin-top:-1px;
+    font-size:15px;
+}
+.vu
+{
+    position:absolute;
+    margin-left: 180px;
+    margin-top: -35px;
+    font-size:15px;
+    z-index: -1;
+}
+.nom
+{
+    margin-top:-18px;
+    font-size:15px;
+}
+#images-fil
+{
+    display: flex;
+    margin-left: 45px;
+    padding-right: 25px;
+}
+#images-fil .photo-art
+{
+    width: 170px;
+    height: 275px;
+    object-fit: cover;
+    margin-left: 45px;
+    padding-right: 25px;
+    
+}
+.photo-vendeur
+{
+    border-radius:50%;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-left: 45px;
+}
+.nom2
+{
+    margin-top:-25px;
+    font-size:15px;
+    margin-left: 100px;
+}
+.prix2
+{
+    margin-top:-1px;
+    font-size:15px;
+    margin-left: 45px;
+}
+.vu2
+{
+    position:absolute;
+    margin-top: -70px;
+    font-size:15px;
+    margin-left: 205px;
+    z-index: -1;
+}
+.nom2
+{
+    margin-top: -18px;
+    font-size:15px;
+    margin-left: 45px;
+}
+.date
+{
+    margin-top: 10px;
+    margin-left: 45px;
+}
+.name
+{
+    margin-top:-25px;
+    font-size:15px;
+    margin-left: 95px;
+}
